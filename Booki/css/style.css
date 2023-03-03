@@ -1,0 +1,310 @@
+/* Desktop */
+:root{
+    --blueText: #0065FC;
+    --lighGrey:#F2F2F2;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+}
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    margin:0;
+}
+
+/* ################################################################# */
+ 
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+}
+.columnDir{
+    flex-direction: column;
+}
+h1{
+    font-size: 22px;
+}
+h2{
+    font-size: 22px;
+    margin: 0;
+}
+h3{
+    font-size: 16px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.blueIcon{
+    color: var(--blueText);
+}
+
+/* #################################################################### */
+
+nav img{
+    width: 61.09px;
+    height: 19px;
+    margin-top: 44px;
+}
+.blockNav{
+    display: flex;
+}
+.buttonNav{
+    height: 111px;
+    width: 162px;
+    border-top: 2px solid transparent;
+}
+.buttonNav:hover{
+    border-top: 2px solid var(--blueText);
+}
+.buttonNav>a:hover{
+    color: var(--blueText);
+} 
+
+/* ########################################################## */
+
+.research{
+    font-weight: bold;
+    font-size: 18px;
+    width: 236px;
+    height: 49px;
+    padding: 0px;
+}
+.greyBackground{
+    background-color: var(--lighGrey);
+}
+.greyBorder{
+    border: 1px solid var(--lighGrey);
+}
+.iconSearch{
+    height: 49px;
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.buttonSearch{
+    background: var(--blueText);
+    color: white;
+    height: 49px;
+    width: 132px;
+    font-weight: bold;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid var(--blueText);
+}
+.filterBar{
+    display: flex;
+    padding-top: 30px;
+    gap: 36px;
+    font-weight: bold;
+}
+.filterBar>p{
+    font-size: 18px;
+}
+.buttonFilter{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-size:17px;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buttonFilter:hover{
+    background-color: var(--lighGrey);
+}
+.infoSearch{
+   display: flex;
+   align-items: center;
+   gap: 11px;
+   padding-top: 25px;
+}
+.infoIcon{
+    border: 1px solid var(--lighGrey);
+    border-radius: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* ############################################################# */
+
+main{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.whiteBackground{
+    background: white;
+}
+.boxShadow{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+.lodgeSection{
+    padding: 40px;
+    border-radius: 20px;
+    width: 800px;
+    height: 546px;
+}
+.preview{
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.details{
+    padding-left: 16px;
+}
+.details>p{
+    margin:0;
+    padding-bottom: 5px;
+    padding-top: 9px;
+    font-size: 14px;
+}
+.details>h3{
+    padding-top:4px;
+}
+.lodgeSection>h2{
+    padding-bottom: 23px;
+}
+.stars{
+    color: var(--blueText);
+}
+.faded{
+    color: var(--lighGrey);
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    height: 199px;
+    border-radius: 20px;
+}
+.resultsField{
+    display: flex;
+    justify-content: space-around;
+    max-width: 880px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.marginBottom{
+    margin-bottom: 30px;
+}
+.showMore{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.showMore:hover{
+    color: var(--blueText);
+}
+.previewPic1{
+    background-image: url("D:/Repertoire/Openclassrooms/Projet3/Booki/images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+}
+
+/* ################################################################# */
+
+.popField{
+    display: flex;
+    width: 420px;
+    height: 625px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.popFieldTitle{
+    align-items: baseline;
+    padding: 40px 40px 0 40px;
+}
+
+.popResults{
+    display: flex;
+    align-items: flex-start;
+    border-radius: 20px;
+    width: 80%;
+    height: 144px;
+    margin: 30px 40px 0 37px;
+}
+.previewPop{
+    width: 35%;
+    height: 134px;
+    border-radius: 20px 0 0 20px;
+}
+.detailsPop{
+    width: 50%;
+    height: 80%;
+    padding: 15px;
+}
+.detailsPop p{
+    font-size: 14px;
+    margin: 0px;
+    padding-top: 7px;
+}
+.backgroundPic{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+}
+.previewPopPic1{
+    background-image: url("D:/Repertoire/Openclassrooms/Projet3/Booki/images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+}
+
+/* ###################################################### */
+
+.activitiesSection{
+    width: 100%;
+    height: 493px;
+    display: flex;
+    margin: 60px 0 60px 0;
+}
+.activitiesPreview{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 23%;
+    height: 444px;
+    margin-top: 19px;
+}
+.activitiesPreviewPic1{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("D:/Repertoire/Openclassrooms/Projet3/Booki/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    border-radius: 20px;
+}
+.detailsAct{
+    box-sizing: border-box;
+    height: 55px;
+    border-radius: 0 0 20px 20px;
+    padding: 5%;
+}
+
+/* ###################################################### */
+
+footer{
+    display: flex;
+    padding: 70px;
+    gap: 20%;
+}
+footer>p{
+    font-size: 16px;
+    font-weight: 400;
+}
+footer h3{
+    font-size: 18px;
+}
