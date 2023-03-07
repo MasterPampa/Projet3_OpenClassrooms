@@ -11,12 +11,15 @@
     opacity: 1;
 }
 .container{
-    max-width: 1400px;
-    margin: auto;
+    max-width: 1440px;
+    padding: 0 50px 0 50px;
+    width: 100%;
 }
 body{
     font-family: "Raleway", sans-serif;
-    margin:0;
+    display: flex;
+    justify-content: center;
+    
 }
 
 /* ################################################################# */
@@ -81,7 +84,7 @@ nav img{
 .research{
     font-weight: bold;
     font-size: 18px;
-    width: 236px;
+    width: 20%;
     height: 49px;
     padding: 0px;
 }
@@ -120,6 +123,7 @@ nav img{
     font-size: 18px;
 }
 .buttonFilter{
+    height: 50px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     font-size:17px;
@@ -161,11 +165,11 @@ main{
 .lodgeSection{
     padding: 40px;
     border-radius: 20px;
-    width: 800px;
+    width: 65%;
     height: 546px;
 }
 .preview{
-    height: 100%;
+    height: 114px;
     border-radius: 20px 20px 0px 0px;
 }
 .details{
@@ -174,11 +178,11 @@ main{
 .details>p{
     margin:0;
     padding-bottom: 5px;
-    padding-top: 9px;
+    padding-top: 5px;
     font-size: 14px;
 }
 .details>h3{
-    padding-top:4px;
+    padding-top:3px;
 }
 .lodgeSection>h2{
     padding-bottom: 23px;
@@ -222,7 +226,7 @@ main{
 
 .popField{
     display: flex;
-    width: 420px;
+    width: 32%;
     height: 625px;
     margin-left: 40px;
     border-radius: 20px;
@@ -299,12 +303,16 @@ main{
 footer{
     display: flex;
     padding: 70px;
-    gap: 20%;
 }
-footer>p{
-    font-size: 16px;
-    font-weight: 400;
+.footerTxt{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
 }
 footer h3{
     font-size: 18px;
+    padding-bottom: 20px;
+}
+footer a{
+    padding-bottom: 12px;
 }
