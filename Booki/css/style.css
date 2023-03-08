@@ -10,6 +10,9 @@
     color: black;
     opacity: 1;
 }
+
+/* ################################################################ */
+
 .container{
     max-width: 1440px;
     padding: 0 50px 0 50px;
@@ -55,6 +58,9 @@ a{
 }
 .blueIcon{
     color: var(--blueText);
+}
+.roundBorder{
+    border-radius: 20px;
 }
 
 /* #################################################################### */
@@ -128,8 +134,7 @@ nav img{
     border-radius: 25px;
     font-size:17px;
     gap: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
 }
 .buttonFilter:hover{
     background-color: var(--lighGrey);
@@ -143,10 +148,7 @@ nav img{
 .infoIcon{
     border: 1px solid var(--lighGrey);
     border-radius: 50%;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 12px 8px 12px;
 }
 
 /* ############################################################# */
@@ -164,7 +166,6 @@ main{
 }
 .lodgeSection{
     padding: 40px;
-    border-radius: 20px;
     width: 65%;
     height: 546px;
 }
@@ -177,8 +178,7 @@ main{
 }
 .details>p{
     margin:0;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 5px 0;
     font-size: 14px;
 }
 .details>h3{
@@ -198,7 +198,6 @@ main{
     flex-direction: column;
     width: 31%;
     height: 199px;
-    border-radius: 20px;
 }
 .resultsField{
     display: flex;
@@ -219,7 +218,7 @@ main{
     color: var(--blueText);
 }
 .previewPic1{
-    background-image: url("D:/Repertoire/Openclassrooms/Projet3/Booki/images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
 }
 
 /* ################################################################# */
@@ -229,17 +228,14 @@ main{
     width: 32%;
     height: 625px;
     margin-left: 40px;
-    border-radius: 20px;
 }
 .popFieldTitle{
     align-items: baseline;
     padding: 40px 40px 0 40px;
 }
-
 .popResults{
     display: flex;
     align-items: flex-start;
-    border-radius: 20px;
     width: 80%;
     height: 144px;
     margin: 30px 40px 0 37px;
@@ -266,7 +262,7 @@ main{
     border: 5px solid white;
 }
 .previewPopPic1{
-    background-image: url("D:/Repertoire/Openclassrooms/Projet3/Booki/images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-image: url("../images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
 }
 
 /* ###################################################### */
@@ -283,13 +279,12 @@ main{
     width: 23%;
     height: 444px;
     margin-top: 19px;
-}
-.activitiesPreviewPic1{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("D:/Repertoire/Openclassrooms/Projet3/Booki/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-    border-radius: 20px;
+}
+.activitiesPreviewPic1{
+    background-image: url("../images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 }
 .detailsAct{
     box-sizing: border-box;
