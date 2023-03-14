@@ -30,26 +30,36 @@
             <i class="fa-solid fa-location-dot"></i>
           </div>
           <input class="research greyBorder flexCenter" id="searchbar" type="text" name="search" placeholder="Marseille,France">
-          <a class="buttonSearch flexCenter" href="#">Rechercher</a>
+          <a class="buttonSearch flexCenter" href="#"><p>Rechercher</p><i class="fa-solid fa-magnifying-glass display"></i></a>
         </div>
         <div class="filterBar">
           <p>Filtres</p>
-          <a href="#" class="buttonFilter flexCenter">  
-            <i class="fa-solid fa-money-bill-wave blueIcon"></i>
-            <p>Économique</p>
-          </a>
-          <a href="#" class="buttonFilter flexCenter">  
-            <i class="fa-solid fa-person blueIcon"></i>
-            <p>Familial</p>
-          </a>
-          <a href="#" class="buttonFilter flexCenter">  
-            <i class="fa-solid fa-heart blueIcon"></i>
-            <p>Romantique</p>
-          </a>
-          <a href="#" class="buttonFilter flexCenter">  
-            <i class="fa-solid fa-dog blueIcon"></i>
-            <p>Animaux autorisés</p>
-          </a>
+          <div class="filters">
+            <span class="filtersSpace">
+              <a href="#" class="buttonFilter flexCenter">  
+                <i class="fa-solid fa-money-bill-wave blueIcon"></i>
+                <p>Économique</p>
+              </a>
+            </span>
+            <span class="filtersSpace">
+              <a href="#" class="buttonFilter flexCenter">  
+                <i class="fa-solid fa-person blueIcon"></i>
+                <p>Familial</p>
+              </a>
+            </span>
+            <span class="filtersSpace">
+              <a href="#" class="buttonFilter flexCenter">  
+                <i class="fa-solid fa-heart blueIcon"></i>
+                <p>Romantique</p>
+              </a>
+            </span>
+            <span class="filtersSpace">  
+              <a href="#" class="buttonFilter flexCenter">  
+                <i class="fa-solid fa-dog blueIcon"></i>
+                <p>Animaux autorisés</p>
+              </a>
+            </span>
+          </div>
         </div>
         <div class="infoSearch">
           <i class="fa-solid fa-info blueIcon infoIcon flexCenter"></i>
@@ -57,9 +67,11 @@
         </div>
       </header>
       <main>
-        <section class="greyBackground lodgeSection roundBorder">
-          <h2>Hébergements à Marseille</h2>
-          <div class="resultsField">
+        <section class="lodgeSection greyBackground roundBorder">
+          <div class="lodgeTitle">
+            <h2>Hébergements à Marseille</h2>
+          </div>
+          <div class="resultsField flexBetween">
             <a href="#" class="whiteBackground results boxShadow marginBottom roundBorder">
               <div class="preview previewPic1 backgroundPic"></div>
               <div class="details">
@@ -147,64 +159,66 @@
           </div>
           <a class="showMore" href="#">Afficher plus</a>
         </section>
-        <section class="popField greyBackground columnDir roundBorder">
-          <div class="popFieldTitle flexBetween">
+        <section class="popSection greyBackground columnDir roundBorder">
+          <div class="popSectionTitle flexBetween">
             <h2>Les plus populaires</h2>
             <i class="fa-solid fa-chart-line blueIcon"></i>
           </div>
-          <div class="whiteBackground popResults boxShadow roundBorder">
-            <div class="previewPop previewPopPic1 backgroundPic"></div>
-            <a href="#" class="detailsPop flexBetween columnDir">
-              <div>
-                <h3>Hôtel Le soleil du matin</h3>
-                <p>Nuit à partir de 128€</p>
+          <div class="popResultsCards">
+            <a href="#" class="whiteBackground popResults boxShadow roundBorder">
+              <div class="previewPop previewPopPic1 backgroundPic"></div>
+              <div class="detailsPop flexBetween columnDir">
+                <div>
+                  <h3>Hôtel Le soleil du matin</h3>
+                  <p>Nuit à partir de 128€</p>
+                </div>
+                <div class="stars ">
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs faded"></i>
+                </div>
               </div>
-              <div class="stars ">
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs faded"></i>
+            </a>
+            <a href="#" class="whiteBackground popResults boxShadow roundBorder">
+              <div class="previewPop previewPopPic1 backgroundPic"></div>
+              <div class="detailsPop flexBetween columnDir">
+                <div>
+                  <h3>Hôtel Le soleil du matin</h3>
+                  <p>Nuit à partir de 128€</p>
+                </div>
+                <div class="stars ">
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs faded"></i>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="whiteBackground popResults boxShadow roundBorder">
+              <div class="previewPop previewPopPic1 backgroundPic"></div>
+              <div class="detailsPop flexBetween columnDir">
+                <div>
+                  <h3>Hôtel Le soleil du matin</h3>
+                  <p>Nuit à partir de 128€</p>
+                </div>
+                <div class="stars ">
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs"></i>
+                  <i class="fa-solid fa-star fa-xs faded"></i>
+                </div>
               </div>
             </a>
           </div>
-          <a href="#" class="whiteBackground popResults boxShadow roundBorder">
-            <div class="previewPop previewPopPic1 backgroundPic"></div>
-            <div class="detailsPop flexBetween columnDir">
-              <div>
-                <h3>Hôtel Le soleil du matin</h3>
-                <p>Nuit à partir de 128€</p>
-              </div>
-              <div class="stars ">
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs faded"></i>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="whiteBackground popResults boxShadow roundBorder">
-            <div class="previewPop previewPopPic1 backgroundPic"></div>
-            <div class="detailsPop flexBetween columnDir">
-              <div>
-                <h3>Hôtel Le soleil du matin</h3>
-                <p>Nuit à partir de 128€</p>
-              </div>
-              <div class="stars ">
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs"></i>
-                <i class="fa-solid fa-star fa-xs faded"></i>
-              </div>
-            </div>
-          </a>
         </section>
       </main>
       <section class="activitiesSection columnDir">
         <h2>Activités à Marseille</h2>
-        <div class="flexBetween">
+        <div class="activitiesCards">
           <a href="#" class="activitiesPreviewPic1 activitiesPreview boxShadow roundBorder">
             <div class="detailsAct whiteBackground">
               <h3>Vieux-Port</h3>
