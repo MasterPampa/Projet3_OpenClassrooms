@@ -55,6 +55,9 @@ a{
 .roundBorder{
     border-radius: 20px;
 }
+.euro {
+    font-weight: bold;
+}
 
 /* Logo et nav #################################################################### */
 
@@ -73,6 +76,7 @@ nav img{
 }
 .buttonNav:hover{
     border-top: 2px solid var(--blueText);
+    font-weight: 500;
 }
 .buttonNav:hover a{
     color: var(--blueText);
