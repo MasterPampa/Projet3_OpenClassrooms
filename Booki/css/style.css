@@ -44,6 +44,7 @@ h2{
 h3{
     font-size: 16px;
     margin: 0px;
+    text-align: start;
 }
 a{
     text-decoration: none;
@@ -153,6 +154,7 @@ nav img{
 .display{
     display: none;
 }
+
 /* Hebergements ############################################################# */
 
 main{
@@ -255,25 +257,27 @@ main{
 }
 .popResults{
     display: flex;
-    align-items: flex-start;
-    width: 80%;
+    width: 100%;
     height: 144px;
-    margin: 30px 40px 0 37px;
 }
 .popResultsCards{
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    padding: 26px 40px 40px 40px;
 }
 .previewPop{
-    width: 35%;
+    width: 40%;
     height: 134px;
     border-radius: 20px 0 0 20px;
 }
 .detailsPop{
-    width: 50%;
-    height: 80%;
-    padding: 15px;
+    width: 60%;
+    height: 90%;
+    padding: 10px 0 10px 10px;
+    align-items: baseline;
+    text-align: start;
 }
+
 .detailsPop p{
     font-size: 14px;
     margin: 0px;
