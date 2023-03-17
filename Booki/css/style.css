@@ -441,9 +441,14 @@ footer a{
             position: relative; 
             top: 2px;
     }
+    nav img{
+        margin-top: 21px;
+    }
     .buttonNav{
         border-bottom: 3px solid var(--lighGrey);
         width: 50%;
+        height: 80px;
+        padding-top: 10px;
     }
     .searchBar{
         justify-content: center;
