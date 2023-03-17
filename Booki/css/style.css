@@ -178,15 +178,15 @@ main{
     padding-left:40px;
 }
 .preview{
-    height: 114px;
+    height: 60%;
     border-radius: 20px 20px 0px 0px;
 }
 .details{
-    padding-left: 16px;
+    padding: 0 12px 7px 12px;
+    height: 40%;
 }
 .details>p{
     margin:0;
-    padding: 5px 0;
     font-size: 14px;
 }
 .details>h3{
@@ -208,7 +208,7 @@ main{
     max-width: 880px;
     flex-wrap: wrap;
     padding-left: 40px;
-    padding: 40px;
+    padding: 23px 40px 40px 40px;
 }
 .marginBottom{
     margin-bottom: 30px;
@@ -348,6 +348,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 35%;
+    padding-right: 40px;
 }
 footer h3{
     font-size: 18px;
@@ -366,6 +367,10 @@ footer a{
     main{
         flex-direction: column;
     }
+    .lodgeSection h3{
+        font-size: 15px;
+    }
+    
     .filters{
         width: 100%;
         justify-content: space-between;
@@ -379,6 +384,16 @@ footer a{
     .popSection{
         width: 100%;
         margin: 50px 0 0 0;
+    }
+    .detailsPop{ /* ajustement taille et police box détail au vu du nom d'hotel trop long*/
+        height: 87%; 
+        padding: 10px 10px 10px 10px;
+    }
+    .popSection h3{
+        font-size: 14px;
+    }
+    .detailsPop p{
+        font-size: 13px;
     }
     .popResultsCards{
         display: flex;
@@ -457,8 +472,8 @@ footer a{
         justify-content: flex-start;
     }
     .fa-person{ /* fix alignement texte/icone */
-        padding-left: 3px;
-        padding-right: 3px;
+        padding-left: 6px;
+        padding-right: 6px;
     }
     .fa-heart{
         padding-right: 1px;
@@ -493,7 +508,7 @@ footer a{
         margin: 0;
     }
     .popSectionTitle{
-        padding: 28px 0px 0px 20px;
+        padding: 28px 20px 0px 20px;
     }
     .popResultsCards{
         flex-direction: column;
@@ -503,6 +518,12 @@ footer a{
     .popResults{
         margin-bottom: 10px;
         width: 100%;
+    }
+    .detailsPop h3{
+        font-size: 16px;
+    }
+    .detailsPop p{
+        font-size: 14px;
     }
     .lodgeSection{
         background-color: white;
