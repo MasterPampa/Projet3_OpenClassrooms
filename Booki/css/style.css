@@ -14,7 +14,7 @@ body{
 
 /* Générales ################################################################# */
 :root{
-    --blueText: #0065FC;
+    --blueText:#0065FC;
     --lighGrey:#F2F2F2;
 }
 ::placeholder {
@@ -493,7 +493,7 @@ footer a{
     .buttonSearch{
         width: 50px;
     }
-    .buttonSearch>p{
+    .buttonSearch>span{
         display: none;
     }
     .infoSearch{
