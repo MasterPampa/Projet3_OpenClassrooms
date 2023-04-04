@@ -2,14 +2,13 @@
 /* Mise en page ################################################################ */
 
 .container{
-    max-width: 1440px;
+    max-width: 1400px;
     width: 100%;
 }
 body{
     font-family: "Raleway", sans-serif;
     display: flex;
     justify-content: center;
-    margin: 0 50px; 
 }
 
 /* Générales ################################################################# */
