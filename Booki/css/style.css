@@ -2,7 +2,7 @@
 /* Mise en page ################################################################ */
 
 .container{
-    max-width: 1400px;
+    max-width: 1300px;
     width: 100%;
 }
 body{
@@ -159,8 +159,11 @@ nav img{
 
 main{
     display: flex;
+    flex-direction: column;
+}
+.sections{
+    display: flex;
     margin-top: 40px;
-    justify-content: space-between;
 }
 .whiteBackground{
     background: white;
@@ -368,7 +371,7 @@ footer a{
 /* Affichage tablette 1024>768 */
 
 @media (max-width: 1024px) {
-    main{
+    .sections{
         flex-direction: column;
     }
     .lodgeSection h3{
@@ -431,7 +434,7 @@ footer a{
     /* nav */
 
     header{
-        margin: 0 20px 20px 20px;
+        margin: 0 0px 20px 0px;
     }
     .blockNav{
         width: 100%;
@@ -506,9 +509,14 @@ footer a{
     /* Sections hebergements et populaires */
     
     main{
-        flex-direction: column-reverse;
+
         height: auto;
-        margin: 0;
+    }
+    .mainFlex{
+        margin: 0 20px;
+    }
+    .sections{
+        flex-direction: column-reverse;
     }
     .popSection{
         border-radius: 0;
@@ -582,6 +590,7 @@ footer a{
     }
     .footerTxt{
         padding-bottom: 40px;
+        padding-right: 0;
         width: 100%;
     }
 }

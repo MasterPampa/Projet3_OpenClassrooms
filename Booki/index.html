@@ -15,58 +15,61 @@
   </head>
   <body>
     <div class="container">
-      <nav class="flexBetween">
+      <header>
+        <nav class="flexBetween">
           <a href="index.html"> <img src="images/logo/Booki.png" alt="Logo Booki"></a> 
           <div class="blockNav">
               <div class="buttonNav flexCenter"><a href="#lodge">Hébergements</a></div>
               <div class="buttonNav flexCenter"><a href="#activities">Activités</a></div>
           </div>
-      </nav>
-      <header>
-        <h1 class="noMargin">Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p class="noMargin">En plein centre-ville ou en pleine nature</p>
-        <div class="searchBar">
-          <div class="greyBackground iconSearch flexCenter greyBorder">
-            <i class="fa-solid fa-location-dot"></i>
-          </div>
-          <input class="research greyBorder flexCenter" id="searchbar" type="text" name="search" placeholder="Marseille,France">
-          <a class="buttonSearch flexCenter" href="#"><span>Rechercher</span><i class="fa-solid fa-magnifying-glass display"></i></a>
-        </div>
-        <div class="filterBar">
-          <p>Filtres</p>
-          <div class="filters">
-            <span class="filtersSpace">
-              <a href="#" class="buttonFilter flexCenter">  
-                <i class="fa-solid fa-money-bill-wave fa-lg blueIcon"></i>
-                Économique
-              </a>
-            </span>
-            <span class="filtersSpace">
-              <a href="#" class="buttonFilter flexCenter">  
-                <i class="fa-solid fa-person fa-lg blueIcon "></i>
-                Familial
-              </a>
-            </span>
-            <span class="filtersSpace">
-              <a href="#" class="buttonFilter flexCenter">  
-                <i class="fa-solid fa-heart fa-lg blueIcon"></i>
-                Romantique
-              </a>
-            </span>
-            <span class="filtersSpace">  
-              <a href="#" class="buttonFilter flexCenter">  
-                <i class="fa-solid fa-dog  fa-lg blueIcon"></i>
-                Animaux autorisés
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="infoSearch">
-          <i class="fa-solid fa-info blueIcon infoIcon flexCenter"></i>
-          <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
+        </nav>
       </header>
       <main>
+        <div class="mainFlex">
+          <h1 class="noMargin">Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p class="noMargin">En plein centre-ville ou en pleine nature</p>
+          <div class="searchBar">
+            <div class="greyBackground iconSearch flexCenter greyBorder">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <input class="research greyBorder flexCenter" id="searchbar" type="text" name="search" placeholder="Marseille,France">
+            <a class="buttonSearch flexCenter" href="#"><span>Rechercher</span><i class="fa-solid fa-magnifying-glass display"></i></a>
+          </div>
+          <div class="filterBar">
+            <p>Filtres</p>
+            <div class="filters">
+              <span class="filtersSpace">
+                <a href="#" class="buttonFilter flexCenter">  
+                  <i class="fa-solid fa-money-bill-wave fa-lg blueIcon"></i>
+                  Économique
+                </a>
+              </span>
+              <span class="filtersSpace">
+                <a href="#" class="buttonFilter flexCenter">  
+                  <i class="fa-solid fa-person fa-lg blueIcon "></i>
+                  Familial
+                </a>
+              </span>
+              <span class="filtersSpace">
+                <a href="#" class="buttonFilter flexCenter">  
+                  <i class="fa-solid fa-heart fa-lg blueIcon"></i>
+                  Romantique
+                </a>
+              </span>
+              <span class="filtersSpace">  
+                <a href="#" class="buttonFilter flexCenter">  
+                  <i class="fa-solid fa-dog  fa-lg blueIcon"></i>
+                  Animaux autorisés
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="infoSearch">
+            <i class="fa-solid fa-info blueIcon infoIcon flexCenter"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+          </div>
+        </div>
+        <div class="sections">
         <section id="lodge" class="lodgeSection greyBackground roundBorder">
           <div class="lodgeTitle">
             <h2>Hébergements à Marseille</h2>
@@ -159,7 +162,7 @@
           </div>
           <a class="showMore" href="#">Afficher plus</a>
         </section>
-        <section class="popSection greyBackground columnDir roundBorder">
+        <aside class="popSection greyBackground columnDir roundBorder">
           <div class="popSectionTitle flexBetween">
             <h2>Les plus populaires</h2>
             <i class="fa-solid fa-chart-line blueIcon"></i>
@@ -214,8 +217,8 @@
               </div>
             </a>
           </div>
-        </section>
-      </main>
+        </aside>
+      </div>
       <section id="activities" class="activitiesSection columnDir">
         <h2>Activités à Marseille</h2>
         <div class="activitiesCards">
@@ -241,6 +244,7 @@
           </a>
         </div>
       </section>
+      </main>
       <footer class="greyBackground">
         <div class="footerTxt">
           <h3>A propos</h3>
